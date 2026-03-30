@@ -254,11 +254,13 @@ button {
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+  will-change: transform;
 }
 
 .hero-visual-card:hover img {
   transform: scale(1.03);
 }
+
 
 @media (max-width: 992px) {
   .hero-visual-card {
@@ -516,6 +518,7 @@ button {
   height: 100%;
   object-fit: cover;
   transition: transform 0.35s ease;
+  will-change: transform;
 }
 
 .gallery-grid .gallery-card:hover img {

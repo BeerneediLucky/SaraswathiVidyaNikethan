@@ -24,6 +24,8 @@ function About() {
               <img
                 src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"
                 alt="Happy children in classroom"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

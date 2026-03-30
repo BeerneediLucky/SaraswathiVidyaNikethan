@@ -36,6 +36,8 @@ function Gallery() {
                 <img
                   src={src}
                   alt={`Gallery ${index + 1}`}
+                  loading="lazy"
+                  decoding="async"
                   onError={(event) => {
                     event.currentTarget.src = 'https://via.placeholder.com/900x600?text=Gallery+image'
                   }}
@@ -51,7 +53,7 @@ function Gallery() {
             <button className="lightbox-close" onClick={() => setSelected(null)} aria-label="Close gallery preview">
               ×
             </button>
-            <img src={selected} alt="Preview" />
+            <img src={selected} alt="Preview" loading="lazy" decoding="async" />
           </div>
         </div>
       )}
