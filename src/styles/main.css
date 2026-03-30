@@ -730,4 +730,18 @@ button {
   .hero-copy {
     font-size: 1rem;
   }
+
+  .hero-section {
+    padding-bottom: 6.5rem;
+  }
+
+  .hero-visual-card {
+    min-height: 260px;
+    margin-bottom: 1.5rem;
+  }
+
+  .whatsapp-float {
+    right: 1rem;
+    bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
 }
