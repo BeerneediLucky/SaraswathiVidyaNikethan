@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section id="home" className="hero-section position-relative overflow-hidden">
+    <section id="home" className="hero-section position-relative overflow-hidden reveal">
       <div className="hero-overlay"></div>
       <div className="container hero-inner text-white">
         <div className="row align-items-center">
