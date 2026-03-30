@@ -33,7 +33,7 @@ function Achievements() {
         <div className="row g-4 mt-4">
           {stats.map((item, index) => (
             <div className="col-sm-6 col-lg-3" key={item.label}>
-              <div className="achievement-card card border-0 shadow-sm p-4 h-100 text-center">
+              <div className={`achievement-card card border-0 shadow-sm p-4 h-100 text-center reveal ${index % 2 === 0 ? 'fade-right delay-1' : 'fade-left delay-1'}`}>
                 <div className="achievement-count">{counts[index]}</div>
                 <div className="achievement-label">{item.label}</div>
               </div>

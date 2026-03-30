@@ -35,9 +35,9 @@ function Facilities() {
           </div>
           <div className="col-lg-7">
             <div className="row g-4">
-              {facilities.map((item) => (
+              {facilities.map((item, index) => (
                 <div className="col-sm-6" key={item.title}>
-                  <div className="facility-card card border-0 p-4 shadow-sm hover-float h-100">
+                  <div className={`facility-card card border-0 p-4 shadow-sm hover-float h-100 reveal ${index % 2 === 0 ? 'fade-left delay-1' : 'fade-right delay-1'}`}>
                     <div className="facility-icon">{item.icon}</div>
                     <h3>{item.title}</h3>
                     <p>{item.description}</p>

@@ -43,9 +43,9 @@ function Classes() {
           </p>
         </div>
         <div className="row gy-4 mt-4">
-          {classItems.map((item) => (
+          {classItems.map((item, index) => (
             <div className="col-md-6 col-lg-4" key={item.title}>
-              <div className="class-card card border-0 h-100 shadow-sm hover-float">
+              <div className={`class-card card border-0 h-100 shadow-sm hover-float reveal ${index % 2 === 0 ? 'fade-right delay-1' : 'fade-left delay-1'}`}>
                 <div className="class-card-deco"></div>
                 <div className="class-card-head d-flex align-items-center justify-content-between mb-4">
                   <div className="class-icon">{item.icon}</div>

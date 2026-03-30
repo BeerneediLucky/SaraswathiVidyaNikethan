@@ -9,7 +9,7 @@ function Testimonials() {
         <div id="testimonialCarousel" className="carousel slide mt-4" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className="testimonial-card card border-0 shadow-sm p-4">
+              <div className="testimonial-card card border-0 shadow-sm p-4 reveal fade-right delay-1">
                 <div className="testimonial-meta d-flex align-items-center gap-3 mb-3">
                   <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=100&q=80" alt="Parent 1" className="rounded-circle" />
                   <div>
@@ -24,7 +24,7 @@ function Testimonials() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className="testimonial-card card border-0 shadow-sm p-4">
+              <div className="testimonial-card card border-0 shadow-sm p-4 reveal fade-left delay-2">
                 <div className="testimonial-meta d-flex align-items-center gap-3 mb-3">
                   <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=100&q=80" alt="Parent 2" className="rounded-circle" />
                   <div>
@@ -39,7 +39,7 @@ function Testimonials() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className="testimonial-card card border-0 shadow-sm p-4">
+              <div className="testimonial-card card border-0 shadow-sm p-4 reveal fade-right delay-3">
                 <div className="testimonial-meta d-flex align-items-center gap-3 mb-3">
                   <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Parent 3" className="rounded-circle" />
                   <div>

@@ -11,21 +11,21 @@ function Admissions() {
         </div>
         <div className="row g-4 mt-4">
           <div className="col-md-4">
-            <div className="admission-step card border-0 shadow-sm p-4 h-100">
+            <div className="admission-step card border-0 shadow-sm p-4 h-100 reveal fade-right delay-1">
               <div className="step-badge">1</div>
               <h3>Apply</h3>
               <p>Reach out with your child’s details so we can craft the right onboarding plan.</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="admission-step card border-0 shadow-sm p-4 h-100">
+            <div className="admission-step card border-0 shadow-sm p-4 h-100 reveal fade-left delay-2">
               <div className="step-badge">2</div>
               <h3>Visit</h3>
               <p>Experience our classrooms, playgrounds and the caring teachers who support every child.</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div className="admission-step card border-0 shadow-sm p-4 h-100">
+            <div className="admission-step card border-0 shadow-sm p-4 h-100 reveal fade-right delay-3">
               <div className="step-badge">3</div>
               <h3>Join</h3>
               <p>Begin a joyful school journey in an environment designed for early discovery.</p>

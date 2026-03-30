@@ -12,7 +12,7 @@ function About() {
             <p className="section-text text-muted">
               From gentle learning routines to meaningful friendships, we design each day to support emotional wellbeing and academic confidence for early learners.
             </p>
-            <div className="about-quote card p-4 shadow-sm mt-4">
+            <div className="about-quote card p-4 shadow-sm mt-4 reveal fade-left delay-1">
               <strong>Principal’s Message</strong>
               <p className="mb-0 mt-2">
                 "At Saraswathi Vidya Nikethan, every little dream is celebrated. We create space for young hearts to love learning and build a lifetime of trust."
@@ -20,7 +20,7 @@ function About() {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="about-image rounded-4 overflow-hidden shadow-lg">
+            <div className="about-image rounded-4 overflow-hidden shadow-lg reveal fade-right delay-1">
               <img
                 src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"
                 alt="Happy children in classroom"

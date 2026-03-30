@@ -21,7 +21,7 @@ function Gallery() {
         </div>
         <div className="gallery-grid mt-4">
           {images.map((src, index) => (
-            <div className="gallery-item" key={index}>
+            <div className={`gallery-item reveal ${index % 2 === 0 ? 'fade-left delay-1' : 'fade-right delay-1'}`} key={index}>
               <div
                 role="button"
                 tabIndex={0}
