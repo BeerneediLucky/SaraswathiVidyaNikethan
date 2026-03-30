@@ -12,6 +12,7 @@ A modern, responsive school landing page built with React, Vite, and Bootstrap. 
 - [Available Scripts](#available-scripts)
 - [Customizing Content](#customizing-content)
 - [Adding or Replacing Gallery Images](#adding-or-replacing-gallery-images)
+- [Contact + WhatsApp Behavior](#contact--whatsapp-behavior)
 - [Notes](#notes)
 
 ## Project Overview
@@ -138,5 +139,3 @@ The gallery uses responsive card styling, so new images will automatically fit i
 - The project uses Bootstrap classes for the grid and basic spacing.
 - Most global styling is located in `src/styles/main.css`.
 - For best image quality, use high-resolution photos with aspect ratios that match the gallery card layout.
-
-If you want, I can also add a deployment section for GitHub Pages, Netlify, or Vercel.
