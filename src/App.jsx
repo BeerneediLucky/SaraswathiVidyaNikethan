@@ -9,6 +9,7 @@ import Achievements from './components/Achievements'
 import Testimonials from './components/Testimonials'
 import Admissions from './components/Admissions'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import ScrollProgress from './components/ScrollProgress'
 import WhatsAppFloat from './components/WhatsAppFloat'
 
@@ -59,6 +60,7 @@ function App() {
           <Admissions />
           <Contact />
         </main>
+        <Footer />
         <WhatsAppFloat />
       </div>
     </>
