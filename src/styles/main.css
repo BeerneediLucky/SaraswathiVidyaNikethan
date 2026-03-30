@@ -731,6 +731,10 @@ button {
     font-size: 1rem;
   }
 
+  .hero-actions {
+    margin-bottom: 1.5rem;
+  }
+
   .hero-section {
     padding-bottom: 6.5rem;
   }
